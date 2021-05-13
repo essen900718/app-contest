@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background" no-scroll padding>
+
+  <div class ="progress">
+    <p>Mood</p>
+    <ion-progress-bar color="primary" value="0.7"></ion-progress-bar>
+    <p>Hunger</p>
+    <ion-progress-bar color="danger" value="0.3"></ion-progress-bar>
+    <ion-button color="light">
+
+        <p color="main">999</p>
+        <ion-icon color="main" name="server-outline" color="medium"></ion-icon>
+
+
+    </ion-button>
+   </div>
+
+
+    <ion-fab vertical="top" horizontal="end" edge slot="fixed">
+      <ion-fab-button color="main">
+        <ion-icon name="apps-sharp"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="bottom">
+        <ion-fab-button routerLink="/food"><ion-icon color="main" name="fast-food-outline"></ion-icon></ion-fab-button>
+        <ion-fab-button routerLink="/backpack"><ion-icon color="main" name="cart-outline"></ion-icon></ion-fab-button>
+        <ion-fab-button routerLink="/cloth"><ion-icon color="main" name="shirt-outline"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
+
+    <img class = "img" src="../assets/imgs/cow03.gif">
+     <!-- <div class="container">
+          <img src="../assets/imgs/cow03.gif">
+    </div> -->
+
+  </ion-content>
+  <!--<app-explore-container name="Tab 1 page"></app-explore-container>-->
+

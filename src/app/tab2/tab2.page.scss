@@ -1,0 +1,34 @@
+ion-title {
+  size: "large";
+  color:#945a68;
+  font-weight: bold;
+}
+
+#map {
+  height: 100%;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+}
+
+ion-content.background{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+// .wei-image1 {
+//   transition: transform 1s ease;
+//   width: auto;
+//   height: auto;
+// }
+
+// .wei-grid:hover .wei-image1, .wei-grid:focus .wei-image1 {
+//   transform: scale(1.4);
+//   -ms-transform: scale(1.4);
+//   -webkit-transform: scale(1.4);
+// }

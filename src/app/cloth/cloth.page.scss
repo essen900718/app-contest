@@ -1,0 +1,21 @@
+.block{
+  height: 188px;
+  width:360px;
+}
+img{
+  height: 130px;
+  width: 130px;
+  margin-top: 20px;
+}
+
+.word{
+  text-align: right;
+  padding: 100px 200px; /* 文字距离上下有100px内边距 距离左右有200内边距 */
+  margin: 100px 200px; /* 文字距离上下有100px外边距 距离左右有200外边距 */
+}
+
+ion-title {
+  size: "large";
+  color:#945a68;
+  font-weight: bold;
+}

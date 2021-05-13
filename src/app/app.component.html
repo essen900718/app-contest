@@ -1,0 +1,44 @@
+<ion-app>
+  <ion-menu menuId= "main-menu" contentId="main">
+    <ion-content>
+      <div color = "main" class="menu-header-bg"> </div>
+      <div color = "main" class="head-content">
+        <img src="../assets/imgs/cow03.gif" alt=" ">
+        <ion-label>
+          <h2>1083308</h2>
+          <p>資工</p>
+        </ion-label>
+      </div>
+      <div >
+        <ion-list class= "menu-items">
+          <ion-item>
+            <ion-icon color="main" name="paw-outline"></ion-icon>
+            <ion-label color="main">每日任務</ion-label>
+
+          </ion-item>
+          <br>
+          <div class="word">
+            <ion-label color="main">我好久沒去看花花了</ion-label><br>
+            <ion-label color="main">我都快發霉了QQ</ion-label><br>
+            <ion-label color="main">好想去那個很多花的地方</ion-label><br>
+            <ion-label color="main">冬天有好多櫻花還有薯條香!</ion-label><br>
+          </div>
+          <br>
+          <div class="money">
+            <ion-label color="medium">+15</ion-label>
+            <ion-icon name="server-outline" color="medium"></ion-icon>
+          </div>
+
+        </ion-list>
+      </div>
+
+      <div class="container">
+        <ion-button  size="large"  routerLink="/welcome" color="main"><ion-label>Log Out</ion-label></ion-button>
+      </div>
+
+    </ion-content>
+  </ion-menu>
+   <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>
+
+

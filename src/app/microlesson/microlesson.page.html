@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Back" icon="arrow-back-outline"></ion-back-button>
+    </ion-buttons>
+    <ion-title>MicroCourse</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <h2>參訪型</h2>
+    <ion-item (click) = "presentActionSheet()">
+      <div>
+        <ion-label>愛詩人的小書店：現代詩主題獨立書店參訪</ion-label>
+        <ion-label color="medium">5/8 10:30~18:30 元智大學校門口</ion-label>
+      </div>
+    </ion-item>
+    <ion-item (click) = "presentActionSheet()">
+      <div>
+      <ion-label>重尋大嵙崁風華：大溪文化資產巡禮</ion-label>
+      <ion-label color="medium">5/16 9:00~17:00 元智大學校門口</ion-label>
+      </div>
+    </ion-item>
+    <br>
+    <h2>實作型</h2>
+    <ion-item (click) = "presentActionSheet()">
+      <div>
+        <ion-label>生活美感小物設計Ｘ數位印花工作坊</ion-label>
+        <ion-label color="medium">5/8 13:00~17:00 元智大學R3204</ion-label>
+        </div>
+    </ion-item>
+    <ion-item (click) = "presentActionSheet()">
+
+      <div>
+        <ion-label>帶領LEGO感知世界！</ion-label>
+        <ion-label color="medium">5/12 13:00~17:00 元智大學R2426</ion-label>
+        </div>
+    </ion-item>
+    <ion-item (click) = "presentActionSheet()">
+
+      <div>
+        <ion-label>基礎玻璃噴砂工藝</ion-label>
+        <ion-label color="medium">5/15 13:00~17:00 元智大學R3104</ion-label>
+        </div>
+    </ion-item>
+    <ion-item (click) = "presentActionSheet()">
+
+      <div>
+        <ion-label>日本茶道文化之二——立禮茶道</ion-label>
+        <ion-label color="medium">5/15 13:00~17:00 元智大學R3310</ion-label>
+        </div>
+    </ion-item>
+    <ion-item (click) = "presentActionSheet()">
+
+      <div>
+        <ion-label>無人機體驗</ion-label>
+        <ion-label color="medium">5/15 13:00~17:00 元智大學R70108</ion-label>
+        </div>
+    </ion-item> <br>
+    <h2>知識型</h2>
+    <ion-item (click) = "presentActionSheet()">
+
+      <div>
+        <ion-label>敘事力講座（四） AI時代裡的佛法精神：兼談電影藝術與人文思想</ion-label>
+        <ion-label color="medium">5/12 12:00~14:00 元智大學天河書屋</ion-label>
+        </div>
+    </ion-item>
+    <ion-item (click) = "presentActionSheet()">
+
+      <div>
+        <ion-label>天河講堂經典系列講座（六）今晚我想來點……：《金瓶梅》的食色饗宴</ion-label>
+        <ion-label color="medium">5/13 18:30~20:30 元智大學天河書屋</ion-label>
+        </div>
+    </ion-item>
+    <ion-item (click) = "presentActionSheet()">
+
+      <div>
+        <ion-label>傳統與現代的角力：桃園市街發展軌跡</ion-label>
+        <ion-label color="medium">6/4 13:00~15:00 元智大學R5706</ion-label>
+        </div>
+    </ion-item>
+  </div>
+</ion-content>
+
+
